@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset=utf-8>
+  
+  <link rel="shortcut icon" href="../IMAGENS/favicon.ico" type="image/x-icon">
+  <title> TARDIS - Agência de Viagens </title>
+  <link rel="stylesheet" href="../CSS/site.css">
+  
+  <script>
+    function login ()
+    {
+prompt("Informe seu login de acesso:");
+prompt("Informe sua senha de acesso:");
+    }
+  </script>
+  <script>
+    function inscricao_ok ()
+    {
+alert("Cadastro realizado com sucesso! Você receberá um e-mail com novidades semanalmente.");
+    }
+</script>
+</head>
+
+<body>
+
+  <header id="cabeçalho">
+    <h1><i>TARDIS Company</i></h1>
+
+    <nav id="menu">
+
+      <ul>
+        <li><a href="../HTML/site da agencia - editando.html">HOME</a></li>
+        <li><a href="../HTML/roteiros_destinos.html">ROTEIROS E DESTINOS</a></li>
+        <li><a href="../HTML/pacotes.html">PACOTES E PROMOÇÕES</a></li>
+        <li><a href="compra.html">COMPRA DE PACOTES</a> </li>
+        <li><a href="../HTML/fale_conosco.html">FALE CONOSCO</a> </li>
+        <li><a href="Cadastre-se.html">CADASTRE-SE</a> </li>
+
+      </ul>
+      <button onclick="login()" id="enviar">Login</button>
+    </nav>
+  </header>
+
+  <main>
+    <h3> Quer viajar? Vai de <i>TARDIS.</i>
+      <br>
+      Viaje com a <i>TARDIS</i> e recupere o tempo perdido.
+    </h3>
+
+
+    <p id="inicio"> Já sabe onde deseja ir?
+      Temos várias opções, destinos nacionais e internacionais.<br>
+      Já pensou em descansar em ilhas paradisíacas,em lugares isolados,
+      ou cidades que nunca dormem?
+      <br>
+      Confira nossos pacotes e promoções clicando aqui <a href="../HTML/pacotes.html">Pacotes e promoções.</a>.
+    </p>
+
+    <section id="img">
+      <div id="sermon">
+        <img src="../IMAGENS/globo.jpg" alt="">
+      </div>
+
+    </section>
+    <hr>
+
+    <p> Aqui você aprende o que precisa para viajar sem problemas.
+      <br>
+      Principais exigências para viagens internacionais.
+    <p>
+
+    <ul id="lista">
+      <li>RG</li>
+      <li>CPF</li>
+      <li>Passaporte</li>
+      <li>O visto</li>
+      <li>Certificado internacional de vacina</li>
+      <li>PID (Permissão Internacional para Dirigir)</li>
+      <li>Comprovante de Hospedagem</li>
+      <li>Documentos para embarque internacional</li>
+      <li>Seguro com cobertura para documentos perdidos</li>
+      <li>Documentos para viagem internacional com menor de idade</li>
+      <li>Documentos de embarque internacional com animais de estimação</li>
+      <li>Regras para estrangeiros: documentos para embarque internacional</li>
+      <li>Cotação de seguro viagem internacional</li>
+    </ul>
+    <p>
+      Não se esqueça de pesquisar sobre seu destino.
+      <br>
+      E boa viagem!
+    </p>
+
+    <p id="obs">
+      <br>
+      *Aqui temos uma página onde você pode encontrar
+      informações consulares sobre os locais para os quais deseja ir.
+      <a href="http://antigoportalconsular.itamaraty.gov.br/" target="_blanc"> Portal consular
+      </a>
+    </p>
+
+
+    <div style="background-color:#00BFFF;text-align:center">
+
+      <h2>
+        <p>Esperamos que ao se cadastrar em nossa news letter, você sinta o cheirinho de férias no ar!</p>
+      </h2>
+    </div>
+
+    <form id="form">
+      <h3>Inscreva-se nossa Newsletter</h3>
+      <p style="font-size:20px">Receba informações sobre destinos, promoções e novidades.</p>
+
+      <label for="Nome">Informe seu nome:</label>
+      <input type="text" id="Nome" name="Nome">
+      <br>
+      <label for="e-mail">Digite seu e-mail:</label>
+      <input type="text" id="e-mail" name="e-mail">
+      <br>
+      <label for="idade">Nos conte sua idade, isso nos ajuda a traçar o seu perfil.</label>
+      <input type="text" id="idade" name="idade"> <small style=" font-size:12px">Fique tranquilo, pois será nosso
+        segredo.</small>&#x1F910
+
+      <br>
+      <br>
+      <label for="estilo">Qual o seu estilo?</label>
+      <br>
+      <input type="radio" id="Aventureiro" name="grupo.estilo">
+      <label for="Aventureiro"> Aventureiro </label>
+      <br>
+      <label for="Historiador"> </label>
+      <input type="radio" id="Historiador" name="grupo.estilo">
+      <label for="Historiador"> Historiador</label>
+      <br>
+      <input type="radio" id="Romântico" name="grupo.estilo">
+      <label for="Romântico"> Romântico </label>
+      <br>
+      <br>
+      <label for="destino">Que tipo de destinos tem preferências?</label>
+      <br>
+      <input type="checkbox" id="Nacionais" name="nacional" value="nacional"> Nacionais
+      <br>
+      <input type="checkbox" id="Internacionais" name="internacional" value="internacional"> Internacionais
+      <br>
+      <label>Informe sua estação do ano preferida:
+
+        <select name="estação" id="estação">
+          <option value="">Sem preferências</option>
+          <option value="Todas">Todas</option>
+
+          <option value="Primavera">Primavera</option>
+          <option value="Verão">Verão</option>
+          <option value="Outono">Outono</option>
+          <option value="Inverno">Inverno</option>
+        </select>
+      </label>
+
+      <br>
+      <br>
+      <label for="mensagem" id="mensagem">Deseja contar algo sobre si ou algum outro interesse que não
+        <br>perguntamos ou que não conste na lista?Fique a vontade!</label>
+      <br>
+      <textarea id="msg" name="msg" rows="6" cols="50" maxlength="300"> </textarea>
+<br>
+<button onclick="inscricao_ok()" id="enviar">Enviar</button>
+
+    </form>
+
+  </main>
+
+
+  <footer id="rodape">
+
+    <span> <img id="rodape" src="../IMAGENS/apple-touch-icon.png" alt="">
+      <p>TARDIS Company - Agência de Viagens.
+        <br>
+        Contato: tardiscompany@company.com
+        <br>
+        Telefone de contato: (21) 94040-4040.
+        <br>
+        Endereço: Doctor Whoo, 40 - LostinTime.
+      </p>
+    </span>
+  </footer>
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset=utf-8>
+
+  <link rel="shortcut icon" href="../IMAGENS/favicon.ico" type="image/x-icon">
+  <title> TARDIS - Agência de Viagens </title>
+  <link rel="stylesheet" href="../CSS/site.css">
+  <script>
+    function login ()
+    {
+prompt("Informe seu login de acesso:");
+prompt("Informe sua senha de acesso:");
+    }
+  </script>
+
+<script>
+  function inscricao_ok ()
+  {
+alert("Cadastro realizado com sucesso! Você receberá um e-mail com novidades semanalmente.");
+  }
+</script>
+</head>
+
+<body>
+
+  <header id="cabeçalho">
+    <h1><i>TARDIS Company</i></h1>
+
+    <nav id="menu">
+
+      <ul>
+        <li><a href="../HTML/site da agencia - editando.html">HOME</a></li>
+        <li><a href="../HTML/roteiros_destinos.html">ROTEIROS E DESTINOS</a></li>
+        <li><a href="../HTML/pacotes.html">PACOTES E PROMOÇÕES</a></li>
+        <li><a href="compra.html">COMPRA DE PACOTES</a> </li>
+        <li><a href="../HTML/fale_conosco.html">FALE CONOSCO</a> </li>
+        <li><a href="Cadastre-se.html">CADASTRE-SE</a> </li>
+
+      </ul>
+      <button onclick="login()" id="enviar">Login</button>
+    </nav>
+  </header>
+
+  <main id="faleconosco">
+    <form id="form">
+      <h3>Inscreva-se nossa Newsletter</h3>
+      <p style="font-size:20px">Deseja nos contactar, está tendo algum problema com a plataforma ou precisa de maiores
+        informações sobre as condições de contratação de pacote?
+        <br>
+        Preencha abaixo nosso formulário:
+      </p>
+
+      <label for="Nome">Informe seu nome:</label>
+      <input type="text" id="Nome" name="Nome">
+      <br>
+      <label for="e-mail">Digite seu e-mail:</label>
+      <input type="text" id="e-mail" name="e-mail">
+      <br>
+      <label for="telefone">Informe seu telefone para contato:</label>
+      <input type="text" id="telefone" name="telefone">
+      <br>
+
+      <label>Informe o assunto:
+
+        <select name="ASSUNTO" id="assunto">
+          <option value="">Sem assunto definido</option>
+          <option value="Elogio">Elogio</option>
+
+          <option value="Reclamação">Reclamação</option>
+          <option value="Problemas de acesso a conta">Problemas de acesso a conta</option>
+          <option value="Problemas com viagem ou pacote">Problemas com viagem ou pacote</option>
+          <option value="Dúvidas sobre pacotes">Dúvidas sobre pacotes</option>
+        </select>
+      </label>
+      <br>
+      <br>
+      <label for="mensagem" id="mensagem">Informa aqui sua solicitação:
+        <br>Em caso de problemas com acesso, viagem ou pacote, ou dúvidas sobre pacotes,entraremos em contato por
+        telefone, WhatsApp ou e-mail.</label>
+      <br>
+      <textarea id="msg" name="msg" rows="6" cols="50" maxlength="300"> </textarea>
+      <br>
+      <button onclick="inscricao_ok()" id="enviar">Enviar</button>
+    </form>
+
+    <br>
+
+
+
+  </main>
+
+  <footer id="rodape">
+
+    <span> <img id="rodape" src="../IMAGENS/apple-touch-icon.png" alt="">
+      <p>TARDIS Company - Agência de Viagens.
+        <br>
+        Contato: tardiscompany@company.com
+        <br>
+        Telefone de contato: (21) 94040-4040.
+        <br>
+        Endereço: Doctor Whoo, 40 - LostinTime.
+      </p>
+    </span>
+  </footer>
+
+
+
+
+</body>
+
+
+
+</html>

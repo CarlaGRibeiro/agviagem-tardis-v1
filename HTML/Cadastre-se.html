@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset=utf-8>
+
+  <link rel="shortcut icon" href="../IMAGENS/favicon.ico" type="image/x-icon">
+  <title> TARDIS - Agência de Viagens </title>
+  <link rel="stylesheet" href="../CSS/site.css">
+  <script>
+    function login ()
+    {
+prompt("Informe seu login de acesso:");
+prompt("Informe sua senha de acesso:");
+    }
+  </script>
+  <script>
+    function confirmacaocd ()
+    {
+alert("Cadastro realizado com sucesso!");
+    }
+</script>
+</head>
+
+<body>
+
+  <header id="cabeçalho">
+    <h1><i>TARDIS Company</i></h1>
+
+    <nav id="menu">
+
+      <ul>
+        <li><a href="../HTML/site da agencia - editando.html">HOME</a></li>
+        <li><a href="../HTML/roteiros_destinos.html">ROTEIROS E DESTINOS</a></li>
+        <li><a href="../HTML/pacotes.html">PACOTES E PROMOÇÕES</a></li>
+        <li><a href="compra.html">COMPRA DE PACOTES</a> </li>
+        <li><a href="../HTML/fale_conosco.html">FALE CONOSCO</a> </li>
+        <li><a href="Cadastre-se.html">CADASTRE-SE</a> </li>
+
+      </ul>
+      <button onclick="login()" id="enviar">Login</button>
+    </nav>
+  </header>
+
+  <main>
+    <h3> Quer viajar? Vai de <i>TARDIS.</i>
+      <br>
+      Viaje com a <i>TARDIS</i> e recupere o tempo perdido.
+    </h3>
+
+
+
+    <form id="form1">
+      <h3>Faça login ou Cadastre-se para ter acesso a compra de pacotes.</h3>
+      
+      <label for="Nome">Nome:</label>
+      <br>
+      <input type="text" id="nome" name="nome">
+      <br>
+      <label for="Sobrenome">Sobrenome:</label>
+      <br>
+      <input type="text" id="sobrenome" name="sobrenome">
+      <br>
+      <label for="e-mail">Digite seu e-mail:</label>
+      <br>
+      <input type="text" id="e-mail" name="e-mail">
+      <br>
+      <label for="CPF">Informe seu CPF:</label>
+      <br>
+      <input type="text" id="CPF" name="CPF">
+      <br>
+ 
+ <label>Informe tipo de logradouro:
+  <br>
+  <select name="logradouro" id="logradouro">
+    <option value="">Selecione o tipo.</option>
+    <option value="Rua">Rua</option>
+    <option value="Avenida">Avenida</option>
+
+    <option value="Estrada">Estrada</option>
+    <option value="Travessa">Travessa</option>
+    <option value="Outro">Outro</option>
+     </select>
+</label>
+<br>
+      <label for="Endereço">Digite o nome do logradouro:</label>
+      <br>
+      <input type="text" id="nome_rua" name="nome_rua">
+      <br>
+      <label for="Número">Número:</label>
+      <br>
+      <input type="text" id="numero" name="numero">
+      <br>
+      <label for="Complemento">Complemento:</label>
+      <br>
+      <input type="text" id="complemento" name="complemento">
+      <br>
+      <label for="Bairro">Bairro:</label>
+      <br>
+      <input type="text" id="Bairro" name="Bairro">
+      <br>
+      <label for="Municipio_cidade">Municipio/Cidade:</label>
+      <br>
+      <input type="text" id="Municipio_cidade" name="Municipio_cidade">
+      <br>
+      <label for="Estado">Estado:</label>
+      <br>
+      <input type="text" id="estado" name="estado">
+      <br>
+      <label for="UF">UF:</label>
+      <br>
+      <input type="text" id="UF" name="UF">
+      <br>
+      <label for="Pais">País:</label>
+      <br>
+      <input type="text" id="pais" name="pais">
+      <br>
+      <label for="Senha">Cadastre sua Senha de acesso:</label>
+      <br>
+      <input type="text" id="senha" name="senha">
+      <br>
+      <button onclick="confirmacaocd()" id="enviar">Enviar</button>
+    </form>
+
+
+    
+  </main>
+
+
+  <footer id="rodape">
+
+    <span> <img id="rodape" src="../IMAGENS/apple-touch-icon.png" alt="">
+      <p>TARDIS Company - Agência de Viagens.
+        <br>
+        Contato: tardiscompany@company.com
+        <br>
+        Telefone de contato: (21) 94040-4040.
+        <br>
+        Endereço: Doctor Whoo, 40 - LostinTime.
+      </p>
+    </span>
+  </footer>
+
+
+</body>
+
+
+
+</html>

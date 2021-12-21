@@ -1,0 +1,161 @@
+html {
+    color: white;
+}
+
+header#cabeçalho h1 {
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(3, 121, 232);
+}
+
+header#cabeçalho {
+    background-image: url("../IMAGENS/subscribe-bg.jpg");
+    text-align: center;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    /*color: rgb(20, 3, 119);*/
+    font-size: 32px;
+}
+
+nav#menu {
+    display: flexbox;
+}
+
+nav#menu ul {
+    list-style: none;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #520579;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav#menu li:hover {
+    background-color: cornflowerblue;
+
+}
+
+nav#menu a {
+    color: white;
+}
+
+body {
+    /*background-color: #003b6f;*/
+}
+
+main {
+    background-color: #003b6f;
+    /* background-color: white;*/
+    padding: 25px;
+    margin: 50px;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 50px;
+}
+
+p#inicio {
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-size: 30px;
+}
+
+ul#lista {
+    font-size: 25px;
+}
+
+p#obs {
+    font-size: 20px;
+}
+
+form#form {
+    font-size: 25px;
+
+
+}
+
+th {
+    background-color: yellow;
+}
+
+
+_______________________________________________________________ pag2 table#tabela {
+    border="5";
+}
+
+section#img {}
+
+div#sermon {
+    height: 10px;
+    margin-left: 730px;
+    padding-top: px;
+}
+
+
+main#faleconosco {
+    background-image: url(../IMAGENS/contact-background.jpg);
+
+}
+
+footer#rodape {
+    block-size: 185px;
+    border-style: none;
+    border-color: blue;
+    /*border-radius: 50px;*/
+}
+
+footer#rodape p {
+    display: inline-block;
+    color: darkblue;
+    text-align: center;
+
+
+}
+
+img#rodape {
+    margin-left: 350px;
+
+}
+
+a {
+    color: darkorange
+}
+
+span form#form1 {
+    display: inline-block;
+
+
+
+}
+
+button#enviar {
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+table#tabela{
+text-align: center;
+font-size: 30px;
+}
+
+p#tabela{
+    text-align: center;
+size: 35px;
+}

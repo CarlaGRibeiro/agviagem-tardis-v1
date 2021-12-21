@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset=utf-8>
+
+  <link rel="shortcut icon" href="../IMAGENS/favicon.ico" type="image/x-icon">
+  <title> TARDIS - Agência de Viagens </title>
+  <link rel="stylesheet" href="../CSS/site.css">
+  <script>
+    function login ()
+    {
+prompt("Informe seu login de acesso:");
+prompt("Informe sua senha de acesso:");
+    }
+  </script>
+<script>
+    function confirmacao ()
+    {
+alert("Cadastro realizado com sucesso! Você receberá um e-mail com as devidas informações e observações.");
+    }
+</script>
+</head>
+
+<body>
+
+  <header id="cabeçalho">
+    <h1><i>TARDIS Company</i></h1>
+
+    <nav id="menu">
+
+      <ul>
+        <li><a href="../HTML/site da agencia - editando.html">HOME</a></li>
+        <li><a href="../HTML/roteiros_destinos.html">ROTEIROS E DESTINOS</a></li>
+        <li><a href="../HTML/pacotes.html">PACOTES E PROMOÇÕES</a></li>
+        <li><a href="compra.html">COMPRA DE PACOTES</a> </li>
+        <li><a href="../HTML/fale_conosco.html">FALE CONOSCO</a> </li>
+        <li><a href="Cadastre-se.html">CADASTRE-SE</a> </li>
+
+      </ul>
+      <button onclick="login()" id="enviar">Login</button>
+    </nav>
+  </header>
+
+  <main>
+    <h3> Quer viajar? Vai de <i>TARDIS.</i>
+      <br>
+      Viaje com a <i>TARDIS</i> e recupere o tempo perdido.
+    </h3>
+
+
+
+    <form id="form">
+         
+        
+        <label for="e-mail">Digite seu e-mail:</label>
+        <input type="text" id="e-mail" name="e-mail">
+               
+       <br>
+        <label>Informe a origem da partida:
+  
+          <select name="origem" id="origem">
+            <option value="">Selecione.</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+            <option value="São Paulo">São Paulo</option>
+            <option value="Brasília">Brasília</option>
+          </select>
+        </label>
+        <br>
+        <label>Informe o destino desejado:
+  
+            <select name="destino" id="destino">
+              <option value="">Selecione.</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Brasília">Brasília</option>
+              <option value="Nova York">Nova York</option>
+              <option value="Toronto">Toronto</option>
+              <option value="Paris">Paris</option>
+            </select>
+          </label>
+          <br>
+          <label for="data_viagem">Informe a data desejada para viajar:</label>
+          <input type="text" id="data_viagem" name="data_viagem">
+<br>
+<label>Informe o turno desejado para viajar:
+  
+  <select name="turno" id="turno">
+    <option value="">Selecione.</option>
+      <option value="Manhã">Manhã</option>
+      <option value="Tarde">Tarde</option>
+      <option value="Noite">Noite</option>
+    </select>
+  </label>
+        <br>
+        <br>
+        
+        <label for="mensagem" id="mensagem"> Alguma observação, problema de saúde,orientação ou algo que devamos ou possamos providenciar para tornar 
+            <br> sua experiência mais agradável? Nos informe!
+        </label>
+        <br>
+        <textarea id="msg" name="msg" rows="6" cols="50" maxlength="300"> </textarea>
+  <br>
+ 
+ <button onclick="confirmacao()" id="enviar">Enviar</button>
+  
+      </form>
+<h3>Se desejar, agende sua viagem diretamente pelo WhatsApp com nossa central de atendimento.</h3>
+  </main>
+
+
+  <footer id="rodape">
+
+    <span> <img id="rodape" src="../IMAGENS/apple-touch-icon.png" alt="">
+      <p>TARDIS Company - Agência de Viagens.
+        <br>
+        Contato: tardiscompany@company.com
+        <br>
+        Telefone de contato: (21) 94040-4040.
+        <br>
+        Endereço: Doctor Whoo, 40 - LostinTime.
+      </p>
+    </span>
+  </footer>
+
+
+</body>
+
+
+
+</html>
